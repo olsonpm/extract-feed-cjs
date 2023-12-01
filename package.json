@@ -1,0 +1,18 @@
+{
+  "name": "feed-extractor-cjs",
+  "version": "0.1.0",
+  "description": "Exposes the '@extractus/feed-extractor' module as a cjs dependency",
+  "main": "index.js",
+  "keywords": [
+    "cjs",
+    "feed-extractor"
+  ],
+  "author": "Phil Olson",
+  "license": "SEE LICENSE IN license.txt",
+  "peerDependencies": {
+    "@extractus/feed-extractor": "7.x"
+  },
+  "dependencies": {
+    "fix-esm": "^1.0.1"
+  }
+}
